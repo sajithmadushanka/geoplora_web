@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
         content="Geoplora – Explore countries, cultures, flags, maps, and travel insights with AI-powered guidance and interactive games." />
-    <meta name="keywords"
-        content="geography app, explore countries, travel guide, flags, maps, culture, history, educational app" />
     <meta property="og:title" content="Geoplora – Explore the World Like Never Before" />
     <meta property="og:description"
         content="An educational geography app with AI-powered travel guidance and interactive games." />
     <meta property="og:type" content="website" />
-    <title>Geoplora – Explore the World Like Never Before</title>
+    <title>Geoplora – Master Geography Without the Boredom</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,9 +30,10 @@
                 </span> Geoplora
             </a>
             <ul class="nav-links">
+                <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#features">Features</a></li>
-                <li><a href="#screenshots">Screenshots</a></li>
-                <li><a href="/support.html">Support</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#faq">FAQ</a></li>
             </ul>
             <a href="#download" class="btn btn-sm">Download</a>
         </nav>
@@ -42,170 +41,336 @@
 
     <main>
 
-        <!-- HERO -->
+        <!-- 1. HERO SECTION -->
         <section class="hero" id="home">
             <div class="hero-bg-orb orb-1"></div>
             <div class="hero-bg-orb orb-2"></div>
             <div class="hero-grid-overlay"></div>
 
             <div class="container hero-inner">
-
-                <div class="hero-badge">
-                    <span class="badge-dot"></span> Now with AI Travel Guide
-                </div>
-                <h1 class="hero-title">
-                    Explore the World<br />
-                    <span class="gradient-text">Like Never Before</span>
-                </h1>
-                <p class="hero-desc">
-                    Geoplora is the ultimate educational geography app — discover countries, cultures,
-                    flags, maps, and travel insights through interactive games and AI-powered guidance.
-                </p>
-                <div class="hero-actions" id="download">
-                    <a href="#" class="btn btn-primary">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.37c1.44.07 2.44.74 3.3.8 1.25-.26 2.44-.98 3.77-.84 1.59.19 2.79.86 3.57 2.16-3.28 1.98-2.72 6.22.74 7.36-.46 1.08-.96 2.14-1.38 3.43zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
-                        </svg>
-                        App Store
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.apptuki.geoplora"
-                        class="btn btn-secondary">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M3.18 23.76a2.5 2.5 0 0 0 2.64-.04l10.48-6.05-2.95-2.96-10.17 9.05zm16.7-9.7L16.7 12l3.18-2.06C21.04 10.7 22 11.27 22 12c0 .73-.96 1.3-2.12 2.06zM3.18.24L13.35 9.3 10.4 12.25.54 6.2A1.85 1.85 0 0 1 .5 3.77L3.18.24zm8.12 10.58L4.02 3.93 17.24 11.4l-5.94-.58z" />
-                        </svg>
-                        Google Play
-                    </a>
-                </div>
-                <p class="hero-note">Free to download · Available on iOS & Android</p>
-            </div>
-
-            <div class="hero-visual">
-                <div class="phone-mockup">
-                    <div class="phone-frame">
-                        <div class="phone-screen">
-                            <img src="assets/3d_mockup.png" alt="Geoplora App Mockup" class="phone-screen-img" />
-                        </div>
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span> The smarter way to see the world
                     </div>
-                    <div class="phone-glow"></div>
+                    <h1 class="hero-title">
+                        Stop memorizing.<br />
+                        <span class="gradient-text">Start exploring.</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Discover countries, cultures, and daily habits with AI travel guides and interactive games.
+                        Geography is no longer a textbook—it's an adventure.
+                    </p>
+                    <div class="hero-actions" id="download">
+                        <a href="https://apps.apple.com/lk/app/geoplora/id6760740626" class="btn btn-primary">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.37c1.44.07 2.44.74 3.3.8 1.25-.26 2.44-.98 3.77-.84 1.59.19 2.79.86 3.57 2.16-3.28 1.98-2.72 6.22.74 7.36-.46 1.08-.96 2.14-1.38 3.43zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+                            </svg>
+                            App Store
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.apptuki.geoplora"
+                            class="btn btn-secondary">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M3.18 23.76a2.5 2.5 0 0 0 2.64-.04l10.48-6.05-2.95-2.96-10.17 9.05zm16.7-9.7L16.7 12l3.18-2.06C21.04 10.7 22 11.27 22 12c0 .73-.96 1.3-2.12 2.06zM3.18.24L13.35 9.3 10.4 12.25.54 6.2A1.85 1.85 0 0 1 .5 3.77L3.18.24zm8.12 10.58L4.02 3.93 17.24 11.4l-5.94-.58z" />
+                            </svg>
+                            Google Play
+                        </a>
+                    </div>
+                    <p class="hero-note">Free to download · Available on iOS & Android</p>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-screen">
+                                <img src="assets/3d_mockup.png" alt="Geoplora App Mockup" class="phone-screen-img" />
+                            </div>
+                        </div>
+                        <div class="phone-glow"></div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- FEATURES -->
+
+
+        <!-- 2. PROBLEM SECTION -->
+        <section class="problem section" id="problem">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">The Problem</span>
+                    <h2 class="section-title">Learning about the world shouldn't <br /><span class="gradient-text">feel
+                            like a chore</span></h2>
+                </div>
+                <div class="problem-grid">
+                    <div class="problem-card">
+                        <div class="problem-icon">📚</div>
+                        <h3>Textbooks are boring</h3>
+                        <p>Endless lists of capitals and populations are tedious to read and nearly impossible to
+                            remember long-term.</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-icon">🗺️</div>
+                        <h3>Maps lack context</h3>
+                        <p>Looking at lines on a map doesn't tell you about the culture, the food, or the people who
+                            actually live there.</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-icon">⏳</div>
+                        <h3>Too little time</h3>
+                        <p>Most of us want to be globally aware but don't have the time to read extensive travel blogs
+                            or history books.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SOLUTION SECTION -->
+        <section class="solution section" id="solution">
+            <div class="container solution-inner">
+                <div class="solution-content">
+                    <span class="section-tag">The Solution</span>
+                    <h2 class="section-title">Meet Geoplora — Your daily <span class="gradient-text">global
+                            adventure</span></h2>
+                    <p class="section-desc">
+                        We built Geoplora to replace boring memorization with engaging exploration. By focusing on
+                        bite-sized daily learning, interactive challenges, and AI insights, we turn building your world
+                        knowledge into a fun daily habit you'll actually look forward to.
+                    </p>
+                </div>
+                <div class="solution-visual">
+                    <img src="assets/map_screen.png" alt="Geoplora App Map Screen" class="solution-img" />
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FEATURES SECTION (BENEFITS) -->
         <section class="features section" id="features">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag">What's Inside</span>
-                    <h2 class="section-title">Everything you need to<br /><span class="gradient-text">master the
-                            globe</span></h2>
-                    <p class="section-desc">From flags to full cultural deep-dives, Geoplora packs the world into your
-                        pocket.</p>
+                    <span class="section-tag">Powerful Benefits</span>
+                    <h2 class="section-title">Everything you need to <br /><span class="gradient-text">expand your
+                            horizon</span></h2>
+                    <p class="section-desc">More than just a map. Geoplora gives you real knowledge you can use.</p>
                 </div>
 
                 <div class="features-grid">
                     <div class="feature-card feature-card--accent">
-                        <div class="feature-icon">🗺️</div>
-                        <h3>Country Explorer</h3>
-                        <p>Dive into detailed profiles for every country — capitals, languages, populations, economies,
-                            and more. Searchable and beautifully presented.</p>
-                        <div class="feature-tag">195+ Countries</div>
+                        <div class="feature-icon">🚀</div>
+                        <h3>Build a Daily Habit</h3>
+                        <p>Spend just 5 minutes a day discovering a new country. Small, consistent steps lead to massive
+                            global knowledge over time without burning out.</p>
+                        <div class="feature-tag">One Country A Day</div>
                     </div>
                     <div class="feature-card">
-                        <div class="feature-icon">🚩</div>
-                        <h3>Flag & Map Games</h3>
-                        <p>Test your geography knowledge with addictive quizzes. Guess the flag, place countries on a
-                            map, and climb global leaderboards.</p>
-                        <div class="feature-tag">12 Game Modes</div>
+                        <div class="feature-icon">✨</div>
+                        <h3>Understand the Culture</h3>
+                        <p>Go far beyond borders. Dive deeply into the history, rich traditions, cuisines, and languages
+                            that make each nation truly unique.</p>
+                        <div class="feature-tag">Deep Insights</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎮</div>
+                        <h3>Sharpen Your Memory</h3>
+                        <p>Lock in your knowledge with highly addictive flag and map games. Compete on global
+                            leaderboards and easily track your personal progress.</p>
+                        <div class="feature-tag">Interactive Play</div>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🤖</div>
-                        <h3>AI Travel Guide</h3>
-                        <p>Get personalised travel recommendations, visa tips, cultural etiquette, and itinerary
-                            suggestions powered by advanced AI.</p>
+                        <h3>Travel Smarter with AI</h3>
+                        <p>Planning a trip? Our advanced AI guide gives you instant cultural etiquette, crucial visa
+                            tips, and deeply personalized travel itineraries.</p>
                         <div class="feature-tag">AI Powered</div>
                     </div>
+                    <div class="feature-card feature-card--accent">
+                        <div class="feature-icon">📸</div>
+                        <h3>AI Vision & Scan</h3>
+                        <p>Don't know where you are or what a building is? Snap a photo or upload an image and our AI Vision will completely identify the area instantly.</p>
+                        <div class="feature-tag">Real-Time Scan</div>
+                    </div>
                     <div class="feature-card">
-                        <div class="feature-icon">🏛️</div>
-                        <h3>Culture & History</h3>
-                        <p>Explore traditions, festivals, cuisines, and historical timelines for cultures around the
-                            world. Learn before you travel.</p>
-                        <div class="feature-tag">Rich Content</div>
+                        <div class="feature-icon">🔤</div>
+                        <h3>Instant Translation</h3>
+                        <p>Translate unknown signs, menus, or foreign letters right from your camera. Effortlessly navigate the world without language barriers.</p>
+                        <div class="feature-tag">Live Translate</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- SCREENSHOTS -->
-        <section class="screenshots section" id="screenshots">
+        <!-- 5. HOW IT WORKS -->
+        <section class="how-it-works section" id="how-it-works">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag">App Preview</span>
-                    <h2 class="section-title">See it in <span class="gradient-text">action</span></h2>
-                    <p class="section-desc">A beautiful, intuitive interface designed for curious explorers of all ages.
+                    <span class="section-tag">Simple Process</span>
+                    <h2 class="section-title">Start your <br /><span class="gradient-text">learning journey</span></h2>
+                    <p class="section-desc">
+                        Build global knowledge in just a few minutes a day — simple, engaging, and consistent.
                     </p>
                 </div>
 
-                <div class="screenshots-row">
-                    <div class="screenshot-card">
-                        <div class="screenshot-placeholder ss-blue">
-                            <img src="assets/map_screen.png" alt="World Map View" height="300px">
-                            <div class="ss-label">World Map</div>
-                            <div class="ss-sublabel">Interactive country profiles</div>
-                        </div>
+                <div class="steps-grid">
+
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Download & Start Free Trial</h3>
+                        <p>Install Geoplora and enjoy full access with a 3-day free trial — no commitment.</p>
                     </div>
-                    <div class="screenshot-card screenshot-card--tall">
-                        <div class="screenshot-placeholder ss-teal">
-                            <img src="assets/game_screen.png" alt="Game Screen" height="300px">
-                            <div class="ss-label">Map Quiz</div>
-                            <div class="ss-sublabel">Fast-paced geography games</div>
-                        </div>
+
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Unlock Your Daily Country</h3>
+                        <p>Discover a new country every day and build a powerful learning habit.</p>
                     </div>
-                    <div class="screenshot-card">
-                        <div class="screenshot-placeholder ss-indigo">
-                            <img src="assets/ai_screen.png" alt="AI Travel Guide Screen" height="300px">
-                            <div class="ss-label">AI Travel Guide</div>
-                            <div class="ss-sublabel">Smart, personalised recommendations</div>
-                        </div>
+
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Explore & Learn</h3>
+                        <p>Understand maps, culture, and facts with AI-powered explanations and interactive content.</p>
                     </div>
+
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <h3>Play & Track Progress</h3>
+                        <p>Reinforce your knowledge with fun games and grow your daily learning streak.</p>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <!-- STATS -->
-        <section class="stats section">
+        <!-- 6. WHY IT MATTERS -->
+        <section class="why-matters section" id="why">
+            <div class="container why-inner">
+
+                <div class="why-content">
+                    <h2 class="section-title">
+                        Why this <span class="gradient-text">matters to you</span>
+                    </h2>
+
+                    <p class="section-desc">
+                        The world is more connected than ever — but most people still know very little about it.
+                        Geoplora helps you build real global awareness in just minutes a day.
+                    </p>
+                </div>
+
+                <div class="why-grid">
+
+                    <div class="why-item">
+                        🌍 <strong>Think globally</strong>
+                        <p>Understand countries, cultures, and people beyond headlines.</p>
+                    </div>
+
+                    <div class="why-item">
+                        🎓 <strong>Improve learning</strong>
+                        <p>Make geography easier, faster, and actually enjoyable.</p>
+                    </div>
+
+                    <div class="why-item">
+                        ✈️ <strong>Travel smarter</strong>
+                        <p>Know places before you visit them and experience more.</p>
+                    </div>
+
+                    <div class="why-item">
+                        🧠 <strong>Build a daily habit</strong>
+                        <p>Grow your knowledge consistently in just a few minutes a day.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 7. SOCIAL PROOF -->
+        <section class="testimonials section" id="testimonials">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <span class="stat-num">40<span class="stat-plus">+</span></span>
-                        <span class="stat-label">Countries Covered</span>
+                <div class="section-header">
+                    <span class="section-tag">Wall of Love</span>
+                    <h2 class="section-title">Loved by thousands of <br /><span class="gradient-text">explorers</span>
+                    </h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Finally, an app that actually makes geography fun. I use it during my morning coffee to
+                            learn about a strictly new country every day without feeling overwhelmed!"</p>
+                        <div class="author">— Sarah T.</div>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-num">5<span class="stat-plus">K+</span></span>
-                        <span class="stat-label">Active Explorers</span>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"The AI travel guide is an absolute game-changer. It gave me real cultural tips for my trip
+                            to Japan that entirely changed my travel experience for the better."</p>
+                        <div class="author">— Mark D.</div>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-num">4.9<span class="stat-plus">★</span></span>
-                        <span class="stat-label">App Store Rating</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-num">3<span class="stat-plus">+</span></span>
-                        <span class="stat-label">Game Modes</span>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"My kids are completely addicted to the map games. It's the only screen time I don't feel
+                            guilty about giving them. We learn together as a family."</p>
+                        <div class="author">— Elena R.</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- CTA -->
+        <!-- 9. FAQ SECTION -->
+        <section class="faq section" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Got Questions?</span>
+                    <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>Is Geoplora free to use?</h3>
+                        <p>
+                            Geoplora offers a 3-day free trial so you can explore all features.
+                            After the trial, you can continue with a monthly or annual subscription
+                            to keep learning and unlocking new countries every day.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What platforms is the app available on?</h3>
+                        <p>Geoplora is officially available for download on both the Apple App Store (for iOS devices)
+                            and the Google Play Store (for Android devices).</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How does the AI Travel Guide feature work?</h3>
+                        <p>Our intelligent AI is securely trained on vast amounts of verified cultural and travel data.
+                            You can ask it highly specific questions about local etiquette, hidden itineraries, or niche
+                            history, and it will respond perfectly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- video -->
+        <section class="section" id="video">
+            <div class="container">
+                <div class="video-outer">
+                    <h2 style="text-align:center; margin-bottom: 32px;">See Geoplora in Action</h2>
+
+                    <div class="video-container">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/lx995Pxcz-s?si=fguGQg79GTbXwokO"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- 8. CALL-TO-ACTION (REPEATED) -->
         <section class="cta section">
             <div class="container">
                 <div class="cta-card">
                     <div class="cta-orb"></div>
                     <h2>Ready to explore the world?</h2>
-                    <p>Download Geoplora free today and start your journey through cultures, history, and geography.</p>
+                    <p>Download Geoplora today and easily turn a few spare minutes of your busy day into a rewarding
+                        global adventure.</p>
                     <div class="hero-actions">
-                        <a href="#" class="btn btn-primary">
+                        <a href="https://apps.apple.com/lk/app/geoplora/id6760740626" class="btn btn-primary">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                                 <path
                                     d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.37c1.44.07 2.44.74 3.3.8 1.25-.26 2.44-.98 3.77-.84 1.59.19 2.79.86 3.57 2.16-3.28 1.98-2.72 6.22.74 7.36-.46 1.08-.96 2.14-1.38 3.43zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
@@ -231,7 +396,7 @@
     <footer class="footer">
         <div class="container footer-inner">
             <div class="footer-brand">
-                <a href="index.html" class="nav-logo">
+                <a href="/" class="nav-logo">
                     <span class="logo-globe">🌍</span> Geoplora
                 </a>
                 <p>Explore the world, one country at a time.</p>
